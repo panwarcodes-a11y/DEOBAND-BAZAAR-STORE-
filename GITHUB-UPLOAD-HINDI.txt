@@ -1,0 +1,23 @@
+GitHub par sirf ye kaam karo:
+
+1. New public repository banao
+2. Is folder ke andar ki sari files upload karo:
+   github-pages-ready
+3. Repo me Settings kholo
+4. Pages kholo
+5. Source = Deploy from a branch
+6. Branch = main
+7. Folder = / (root)
+8. Save
+
+Bas.
+
+Upload karte waqt ye files top level par dikhni chahiye:
+- index.html
+- styles.css
+- script.js
+- .nojekyll
+- owner-edit
+
+Zip file upload mat karo.
+Zip ko extract karke uske andar ki files upload karo.

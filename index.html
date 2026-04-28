@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deoband Bazar | Shop Online</title>
+    <meta
+      name="description"
+      content="Instagram-friendly ecommerce storefront for Deoband products with an on-demand order model."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">DB</div>
+          <div>
+            <p class="eyebrow">Instagram-first local brand</p>
+            <h1 id="brand-name">Deoband Bazar</h1>
+          </div>
+        </div>
+        <nav class="top-actions">
+          <a href="#products">Shop</a>
+          <a href="#reels">Reels</a>
+          <a href="#trust">Policies</a>
+          <button class="cart-button" id="open-cart" type="button">
+            Cart <span id="cart-count">0</span>
+          </button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow" id="hero-tagline">Deoband se seedha aapke ghar tak</p>
+            <h2><span id="brand-name-large">Deoband Bazar</span> ke saath local products ko online becho.</h2>
+            <p class="hero-text">
+              Instagram par jo dekho, usse yahin order karo. Aap products baad me
+              add kar sakte ho, aur store ko on-demand business model ke saath chala
+              sakte ho jahan order aane par hi sourcing hoti hai.
+            </p>
+            <div class="hero-cta">
+              <a class="button primary" href="#products">Start Shopping</a>
+              <a class="button secondary" href="#reels">See Insta Reels</a>
+            </div>
+            <p class="hero-announcement" id="announcement"></p>
+          </div>
+          <div class="hero-card">
+            <p class="card-label">Store model</p>
+            <h3>Low-risk, order-first ecommerce setup</h3>
+            <p>
+              Best for Instagram growth: pehle store banao, phir product photos,
+              prices aur live payment methods gradually add karo.
+            </p>
+            <div class="mini-grid">
+              <article>
+                <span>0</span>
+                <p>Upfront stock requirement</p>
+              </article>
+              <article>
+                <span>3-7</span>
+                <p>Business day delivery target</p>
+              </article>
+              <article>
+                <span>1</span>
+                <p>Single page shopping flow</p>
+              </article>
+              <article>
+                <span>IND</span>
+                <p>All India ready layout</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="promo-strip">
+          <div>
+            <strong>Bio Link Friendly</strong>
+            <span>Single page shopping flow for Instagram audience</span>
+          </div>
+          <div>
+            <strong>On-Demand Ready</strong>
+            <span>No need to keep inventory before customer demand appears</span>
+          </div>
+          <div>
+            <strong>Editable Later</strong>
+            <span>Products, prices, payment links and contacts can be added later</span>
+          </div>
+        </section>
+
+        <section class="section" id="business-model">
+          <div class="section-head">
+            <p class="eyebrow">Business model</p>
+            <h2>Built for on-demand selling</h2>
+            <p id="sourcing-note"></p>
+          </div>
+          <div class="trust-grid">
+            <article>
+              <h3>No upfront inventory</h3>
+              <p>You can run this store without keeping physical stock in advance.</p>
+            </article>
+            <article>
+              <h3>Source after order</h3>
+              <p>When customer confirms, you buy from wholesale market and then ship.</p>
+            </article>
+            <article>
+              <h3>Better cash control</h3>
+              <p>Ye model low-risk hai kyunki unnecessary stock block nahi hota.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="featured">
+          <div class="section-head">
+            <p class="eyebrow">Best for Instagram traffic</p>
+            <h2>Featured collection templates</h2>
+          </div>
+          <div class="product-grid" id="featured-grid"></div>
+        </section>
+
+        <section class="section" id="categories">
+          <div class="section-head">
+            <p class="eyebrow">Browse categories</p>
+            <h2>What your customers can shop</h2>
+          </div>
+          <div class="category-grid">
+            <article>Personalized Gifts</article>
+            <article>Namaz Essentials</article>
+            <article>Hijab & Burkha</article>
+            <article>Topi & Pagdi</article>
+            <article>Festive Combos</article>
+            <article>Deoband Specials</article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <p class="eyebrow">How it works</p>
+            <h2>Simple customer flow</h2>
+          </div>
+          <div class="category-grid process-grid">
+            <article>1. Customer visits from Instagram</article>
+            <article>2. Customer explores collection or request-based item</article>
+            <article>3. Order details are collected</article>
+            <article>4. Product is sourced from wholesale market</article>
+            <article>5. Payment setup is shared after store finalization</article>
+            <article>6. Product is packed and shipped</article>
+          </div>
+        </section>
+
+        <section class="section" id="products">
+          <div class="section-head inline-head">
+            <div>
+              <p class="eyebrow">Catalog placeholders</p>
+              <h2>Storefront starter catalog</h2>
+            </div>
+            <label class="search-box">
+              <span>Search</span>
+              <input id="search-input" type="search" placeholder="gift, musalla, hijab..." />
+            </label>
+          </div>
+          <div class="product-grid" id="product-grid"></div>
+        </section>
+
+        <section class="section reels-section" id="reels">
+          <div class="section-head">
+            <p class="eyebrow">Instagram conversion block</p>
+            <h2>Reels se product tak direct flow</h2>
+            <p>
+              Yahan apni viral reels, product drops, unboxing clips aur customer
+              stories add kar sakte ho. Har reel ke niche matching product CTA hona
+              chahiye.
+            </p>
+          </div>
+          <div class="reels-grid">
+            <article>
+              <span class="reel-tag">Reel Placeholder</span>
+              <h3>Product demo reel</h3>
+              <p>Instagram reel embed ya thumbnail yahan add karein.</p>
+              <a href="#products">Link matching product</a>
+            </article>
+            <article>
+              <span class="reel-tag">Story Highlight</span>
+              <h3>Quality showcase clip</h3>
+              <p>Texture, packaging aur real-use clips zyada trust banate hain.</p>
+              <a href="#products">Link matching product</a>
+            </article>
+            <article>
+              <span class="reel-tag">UGC</span>
+              <h3>Customer style or gift reveal</h3>
+              <p>Use-case based video conversion usually zyada hoti hai.</p>
+              <a href="#products">Link matching product</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="section trust-section" id="trust">
+          <div class="section-head">
+            <p class="eyebrow">Trust and policies</p>
+            <h2>Important store rules customers should know</h2>
+          </div>
+          <div class="trust-grid">
+            <article>
+              <h3>Payments</h3>
+              <p id="payment-note"></p>
+            </article>
+            <article>
+              <h3>Delivery</h3>
+              <p id="shipping-note"></p>
+            </article>
+            <article>
+              <h3>Custom Products</h3>
+              <p id="return-note"></p>
+            </article>
+            <article>
+              <h3>Support</h3>
+              <p>
+                Contact methods later add kiye ja sakte hain. Email:
+                <a id="support-email" href="#">Add email later</a>
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <p class="eyebrow">Customer confidence</p>
+            <h2>Reviews and social proof block</h2>
+            <p>Jab aapke first few orders aa jayen, yahan customer feedback add karna.</p>
+          </div>
+          <div class="reels-grid">
+            <article>
+              <span class="reel-tag">Review Placeholder</span>
+              <h3>Customer review card</h3>
+              <p>Future buyer trust ke liye yahan screenshot ya short review add karna.</p>
+            </article>
+            <article>
+              <span class="reel-tag">Before / After</span>
+              <h3>Packaging or delivery proof</h3>
+              <p>Delivered order ki photo trust aur conversion dono badhati hai.</p>
+            </article>
+            <article>
+              <span class="reel-tag">Social Proof</span>
+              <h3>Instagram story highlight</h3>
+              <p>Reels, story mentions aur repeat customer photos yahan dikhao.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-head">
+            <p class="eyebrow">FAQ</p>
+            <h2>Important questions customers will ask</h2>
+          </div>
+          <div class="faq-list">
+            <article>
+              <h3>Kya sab products ready stock me honge?</h3>
+              <p>Nahi, store on-demand model par bana hai. Order aane ke baad sourcing ho sakti hai.</p>
+            </article>
+            <article>
+              <h3>Delivery kitne din me hogi?</h3>
+              <p>Normally sourcing aur shipping ke baad 3-7 business days target rakha gaya hai.</p>
+            </article>
+            <article>
+              <h3>Customized items return ho sakte hain?</h3>
+              <p>Personalized products usually non-returnable hote hain except damage or wrong item cases.</p>
+            </article>
+            <article>
+              <h3>Payment kab live hoga?</h3>
+              <p>Payment methods later add kiye ja sakte hain once store content and products are finalized.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section launch-section">
+          <div class="launch-card">
+            <div>
+              <p class="eyebrow">Launch checklist</p>
+              <h2>Before you add this to Instagram bio</h2>
+            </div>
+            <ol>
+              <li>Edit `config.js` for your store name, WhatsApp, Instagram and email.</li>
+              <li>Edit `products.js` for original products, prices, sizes and stock.</li>
+              <li>Replace gradient placeholders with real product image URLs later.</li>
+              <li>Connect Razorpay or Shopify when you want live prepaid orders.</li>
+            </ol>
+            <p class="launch-note" id="support-message"></p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
+      <div class="cart-panel">
+        <div class="cart-header">
+          <div>
+            <p class="eyebrow">Your order</p>
+            <h2>Shopping Cart</h2>
+          </div>
+          <button class="close-button" id="close-cart" type="button">Close</button>
+        </div>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-footer">
+          <div class="total-row">
+            <span>Total</span>
+            <strong id="cart-total">Rs 0</strong>
+          </div>
+          <button class="button primary wide" id="checkout-button" type="button">Proceed to Checkout</button>
+          <p class="cart-note">
+            Checkout flow ready hai. Live online payment aur contact links baad me add kiye ja sakte hain.
+          </p>
+        </div>
+      </div>
+    </aside>
+
+    <aside class="product-modal" id="product-modal" aria-hidden="true">
+      <div class="product-modal-card">
+        <div class="cart-header">
+          <div>
+            <p class="eyebrow">Product details</p>
+            <h2>Quick view</h2>
+          </div>
+          <button class="close-button" id="close-modal" type="button">Close</button>
+        </div>
+        <div id="modal-body" class="modal-body"></div>
+      </div>
+    </aside>
+
+    <aside class="checkout-sheet" id="checkout" aria-hidden="true">
+      <div class="checkout-card checkout-card-large">
+        <div class="cart-header">
+          <div>
+            <p class="eyebrow">Customer checkout</p>
+            <h2>Order details</h2>
+          </div>
+          <button class="close-button" id="close-checkout" type="button">Close</button>
+        </div>
+        <div class="checkout-layout">
+          <div>
+            <div id="checkout-summary" class="checkout-summary"></div>
+            <div class="total-row checkout-total-row">
+              <span>Total</span>
+              <strong id="checkout-total">Rs 0</strong>
+            </div>
+            <div class="contact-links">
+              <a class="button secondary" id="instagram-link" href="#" target="_blank" rel="noreferrer">
+                Instagram Page
+              </a>
+              <a class="button secondary" id="whatsapp-link" href="#" target="_blank" rel="noreferrer">
+                WhatsApp Support
+              </a>
+            </div>
+          </div>
+          <form id="checkout-form" class="checkout-form">
+            <label>
+              <span>Full Name</span>
+              <input name="name" type="text" placeholder="Enter customer name" required />
+            </label>
+            <label>
+              <span>Phone Number</span>
+              <input name="phone" type="tel" placeholder="Enter WhatsApp number" required />
+            </label>
+            <label>
+              <span>City</span>
+              <input name="city" type="text" placeholder="City / district" required />
+            </label>
+            <label>
+              <span>Full Address</span>
+              <textarea name="address" rows="4" placeholder="House no, area, city, state, pincode" required></textarea>
+            </label>
+            <label>
+              <span>Order Note</span>
+              <textarea name="note" rows="3" placeholder="Name customization, color choice, size note, etc."></textarea>
+            </label>
+            <button class="button primary wide" type="submit">Send Order on WhatsApp</button>
+            <a class="button secondary wide" id="whatsapp-checkout" href="#" target="_blank" rel="noreferrer">
+              Ask for Payment Link
+            </a>
+          </form>
+        </div>
+      </div>
+    </aside>
+
+    <footer class="site-footer">
+      <div>
+        <p class="eyebrow">Store owner</p>
+        <strong id="owner-name">Deoband Bazar Team</strong>
+      </div>
+      <div class="footer-links">
+        <a id="instagram-link-footer" href="#" target="_blank" rel="noreferrer">Instagram</a>
+        <a id="support-email-footer" href="#">Add email later</a>
+      </div>
+    </footer>
+
+    <script src="./owner-edit/store-config.js"></script>
+    <script src="./owner-edit/store-products.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
